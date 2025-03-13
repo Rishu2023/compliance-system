@@ -1,0 +1,6 @@
+model_name: "openai-community/gpt-3.5-turbo"  # State-of-the-art LLM with maximum parameters
+data_file: "model_training/data/regulations.json"
+output_dir: "./model_output"
+learning_rate: 2e-5
+batch_size: 4
+epochs: 3
